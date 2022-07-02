@@ -30,8 +30,6 @@ int main() {
 					a[i] = max(a[i - 1], a[i + 1]);
 				} else if (i - 1 >= 0) {
 					a[i] = a[i - 1];
-				} else {
-					a[i] = a[i + 1];
 				}
 				ans++;
 			}
